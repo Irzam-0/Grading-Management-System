@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/lightBlue"
+    android:layout_centerHorizontal="true">
+
+    <EditText
+        android:id="@+id/etStudentId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student ID"
+        android:inputType="number"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:background="@drawable/edt_background"
+        android:paddingLeft="10sp"/>
+
+
+    <Button
+        android:id="@+id/btnSearchStudent"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Search Student"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/btn_background"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tvSearchResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingTop="16dp"
+        android:layout_below="@+id/btnSearchStudent"/>
+</LinearLayout>

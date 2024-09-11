@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightBlue"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Grading Management System"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/image"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/etStudentId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student ID"
+        android:inputType="number"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:background="@drawable/edt_background"
+        android:paddingLeft="10sp"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10sp"
+        android:background="@drawable/edt_background"/>
+
+    <EditText
+        android:id="@+id/etGrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Grade"
+        android:inputType="number"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:paddingLeft="10sp"
+        android:background="@drawable/edt_background"/>
+
+    <Button
+        android:id="@+id/btnAddStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Student"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/btn_background"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnGoToSearchStudent"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Search Student"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/btn_background"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnDeleteStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Student"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_background"/>
+
+    <Button
+        android:id="@+id/btnViewStudents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View All Students"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_background"/>
+
+
+</LinearLayout>
